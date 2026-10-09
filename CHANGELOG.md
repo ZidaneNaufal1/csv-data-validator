@@ -8,6 +8,8 @@ and [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 
 - Reproducible valid and invalid CSV datasets executed by CI.
+- Structured bug, feature, and pull request templates.
+- Security and data-privacy reporting guidance with a public v1.1.0 roadmap.
 
 ## [1.0.0] - 2026-10-09
 

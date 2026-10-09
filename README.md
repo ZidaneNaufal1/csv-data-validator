@@ -110,6 +110,16 @@ reports, and exit codes. CI runs on Python 3.9, 3.11, and 3.13.
 See [CONTRIBUTING.md](CONTRIBUTING.md). Release history is recorded in
 [CHANGELOG.md](CHANGELOG.md).
 
+## Roadmap
+
+The next focused improvement is tracked in
+[v1.1.0: configurable CSV dialect options](https://github.com/ZidaneNaufal1/csv-data-validator/issues/1).
+
+## Security and Data Privacy
+
+Follow [SECURITY.md](SECURITY.md). Never attach customer CSV files, personal
+information, credentials, or private validation reports to a public issue.
+
 ## License
 
 MIT License. See [LICENSE](LICENSE).
