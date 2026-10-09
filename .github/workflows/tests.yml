@@ -24,3 +24,5 @@ jobs:
         run: python -m py_compile csv_validator.py
       - name: Run tests
         run: python -m unittest discover -v
+      - name: Run example datasets
+        run: python examples/run_demo.py

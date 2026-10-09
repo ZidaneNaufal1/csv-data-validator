@@ -1,0 +1,4 @@
+email,age,active,joined
+not-an-email,-3,maybe,2026-99-10
+duplicate@example.com,22,true,2026-04-01
+duplicate@example.com,twenty,false,2026-04-02

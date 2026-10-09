@@ -1,0 +1,24 @@
+{
+  "allow_extra_columns": false,
+  "columns": {
+    "email": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "[^@]+@[^@]+\\.[^@]+"
+    },
+    "age": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "max": 130
+    },
+    "active": {
+      "type": "boolean",
+      "required": true
+    },
+    "joined": {
+      "type": "date"
+    }
+  }
+}

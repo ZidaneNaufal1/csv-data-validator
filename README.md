@@ -69,6 +69,17 @@ python csv_validator.py customers.csv \
 Boolean values accept `true`, `false`, `1`, `0`, `yes`, `no`, `y`, and `n`.
 Dates use ISO format such as `2026-10-09`.
 
+## Reproducible Demo
+
+```bash
+python examples/run_demo.py
+```
+
+The repository includes a schema plus valid and invalid customer datasets.
+The demo proves that valid input passes and prints precise errors for invalid
+email, age, boolean, date, type, and duplicate values. GitHub Actions executes
+the same fixtures on every push.
+
 ## Exit Codes
 
 | Code | Meaning |
